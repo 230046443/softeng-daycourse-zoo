@@ -1,5 +1,6 @@
 from zoo.elephant import Elephant
 from zoo.kangaroo import Kangaroo
+from zoo.lion import Lion
 
 
 def test_elephant():
@@ -8,3 +9,7 @@ def test_elephant():
 
 def test_kangaroo():
     assert Kangaroo().describe() == "Roo the Kangaroo says thumps and hops around happily."
+
+
+def test_lion():
+    assert Lion().describe() == "Asad the Lion says roars and King of the jungle."
