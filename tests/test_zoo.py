@@ -12,4 +12,4 @@ def test_kangaroo():
 
 
 def test_lion():
-    assert Lion().describe() == "Asad the Lion says roars and King of the jungle."
+    assert Lion().describe() == "Asad the Lion says roars and rules the jungle."

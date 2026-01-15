@@ -12,4 +12,4 @@ class Lion(Animal):
         return "roars"
 
     def action(self):
-        return "King of the jungle."
+        return "rules the jungle."
